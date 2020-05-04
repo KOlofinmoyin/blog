@@ -1,4 +1,4 @@
-# README
+# Blog app.:
 
 * Ruby version: 2.6.6p146
 
