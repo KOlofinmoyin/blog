@@ -11,13 +11,17 @@ class ArticlesController < ApplicationController
     @article = Article.new
   end
 
+  def edit
+    @article = Article.find(params[:id])
+  end
+
   def create
     @article = Article.new(article_params)
 
     if @article.save
       redirect_to @article
     else
-      render 'new'  
+      render 'new'
     end
   end
 
