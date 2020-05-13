@@ -8,6 +8,6 @@
   <%= comment.body %>
 </p>
 
-<% @article.comments.each do |comment| %>
-
-<% end %>
+<p>
+  <%= link_to 'Delete Comment', [comment.article, comment], method: :delete, data: { confirm: 'Are you sure?' } %>
+</p>
