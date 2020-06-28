@@ -79,7 +79,7 @@ I can authenticate my credentials before deleting comments
   - `rails generate model Comment commenter:string body:text article:references`
 
 * Database initialization
- - `rails db:migrate`
+  - `rails db:migrate`
 
 * How to run the test suite:
 
